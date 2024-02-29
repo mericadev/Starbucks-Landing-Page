@@ -28,7 +28,7 @@ Users should be able to:
 
 - Solution URL: (https://github.com/mericadev/Starbucks-Landing-Page.git)
 
-- Live Site URL: ()
+- Live Site URL: (https://mericadev.github.io/Starbucks-Landing-Page/)
 
 ## My process
 

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Star Bucks|Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <!--HEADER CONTENT-->
+        <header>
+            <nav>
+                <div class="side-bar">
+                <div class="primary-nav">  
+                    <ul>
+                        <li  onclick=closeSidebar() class="menu-close"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                       <li><a href="#">Our coffees</a></li>
+                      <li><a href="#">Deliveries</a></li>
+                       <li><a href="#">Rewards</a></li>
+                      <li><a href="#">Responsibilities</a></li>
+                    </ul>   
+                   </div> 
+                   <div class="secondary-nav">
+                       <ul>
+                           <li class="location">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                            <button>Find a store</button>
+                        </li>
+                           <li><button class="sign-in">Sign in</button></li>
+                           <li><button class="join-now">Join now</button></li>
+                       </ul>
+                   </div>
+                </div>
+
+             <div class="primary-nav">  
+             <ul>
+                <li><a href="index.html"><img src="assests/logo.png" class="logo"></a></li>
+                <li class="mobile-hidden"><a href="#">Our coffees</a></li>
+               <li class="mobile-hidden"><a href="#">Deliveries</a></li>
+                <li class="mobile-hidden tablet-hidden"><a href="#">Rewards</a></li>
+               <li class="mobile-hidden tablet-hidden"><a href="#">Responsibilities</a></li>
+             </ul>   
+            </div> 
+            <div class="secondary-nav">
+                <ul>
+                    <div class="mobile-hidden">
+                    <li class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/>
+                        </svg>
+                        <button>Find a store</button>
+                    </li>
+                    </div>
+                    <li class="mobile-hidden">
+                        <button class="sign-in">Sign in</button>
+                    </li>
+                    <li class="mobile-hidden">
+                        <button class="join-now">Join now</button>
+                    </li>
+                    <li onclick=showSidebar()
+                        class="menu-open">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                    </li>
+                </ul>
+            </div>          
+            </nav>
+        </header>
+
+        <!--MAIN CONTENT-->
+        <main>
+            <div class="flex-group">
+                <div class="intro-content">
+                    <h1>It's not just Coffee It's
+                        <span>StarBuck's</span></h1>
+                    <p>
+                        Welcome to Starbucks, where our passion for crafting the perfect cup of coffee goes beyond just a beverage – it's an experience. From our rich heritage to our commitment to quality, every sip of Starbucks coffee tells a story of craftsmanship and community. Join us in celebrating the love for coffee that has made Starbucks a beloved global icon, one cup at a time.
+                    </p>
+                    <button>Learn more</button>
+                </div>
+                <div class="coffee-container">
+                    <div class="circle"></div>
+                    <div class="main">
+                        <img src="assests/green.png" alt="green fruppaccino" class="green-fruppaccino"> 
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </main>
+
+        <!--FOOTER CONTENT-->
+        <footer>
+            <div class="options">
+                <div class="option">
+                    <img src="assests/green.png" alt="green fruppaccino" class="green-fruppaccino">  
+                </div>
+             
+                <div class="option">
+                    <img src="assests/orange.png" alt="orange fruppaccino" class="orange-fruppaccino">  
+                </div>
+
+                <div class="option">
+                    <img src="assests/pink.png" alt="pink fruppaccino" class="pink-fruppaccino">  
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
